@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fandom data 📊</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Orbitron:wght@400..900&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="overlay"></div>
+      <section class="project__heading">
+        <h1>
+          IN A LIST OF THE TOP 500 NOVELS MOST WIDELY HELD IN LIBRARIES,
+          ACCORDING TO
+          <a
+            href="https://www.oclc.org/en/about.html?cmpid=md_ab"
+            target="blank"
+            >OCLC</a
+          >, WHICH NOVEL RANKS HIGHER?
+        </h1>
+      </section>
+
+      <div id="center_popup">
+        <div id="pop_up">
+          <h2 id="popup_text"></h2>
+          <button id="continue_button" class="button">Continue</button>
+        </div>
+      </div>
+
+      <!-- two fandom datasets  -->
+      <div class="dataset">
+        <div class="dataset_section">
+          <section class="dataset_section_one">
+            <button class="fandom_name button" id="book_title"></button>
+            <div class="description">
+              <p id="ranking_one"></p>
+            </div>
+          </section>
+        </div>
+        <div>
+          <img class="vs_image" src="../vs.png" />
+        </div>
+        <div>
+          <section class="dataset_section">
+            <button class="fandom_name_two button" id="book_title_two"></button>
+            <div class="description">
+              <p id="ranking_two"></p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- load js file -->
+    <script src="./app.js"></script>
+  </body>
+</html>

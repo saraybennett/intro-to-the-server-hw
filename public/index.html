@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fandom v fandom 🤺</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Orbitron:wght@400..900&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="overlay"></div>
+      <div>
+        <ul>
+          <li id="li_one">
+            <a href="http://localhost:3000/data" target="blank"
+              >check out some book data!</a
+            >
+          </li>
+          <li id="li_two">
+            <a href="http://localhost:3000/data:special-data" target="blank"
+              >check out some special data!</a
+            >
+          </li>
+        </ul>
+      </div>
+      <section class="project__heading">
+        <h1>
+          WHICH FANDOM DO YOU THINK HAS MORE WORKS ON THE
+          <a
+            href="https://archiveofourown.org/faq/about-the-archive?language_id=en"
+            target="blank"
+            >ARCHIVE OF OUR OWN</a
+          >, A HOSTING SITE FOR TRANSFORMATIVE FANWORKS?
+        </h1>
+      </section>
+
+      <div id="center_popup">
+        <div id="pop_up">
+          <h2 id="popup_text"></h2>
+          <button id="continue_button" class="button">Continue</button>
+        </div>
+      </div>
+
+      <!-- two fandom datasets  -->
+      <div class="dataset">
+        <div class="dataset_section">
+          <section class="dataset_section_one">
+            <button class="fandom_name button" id="fandom_name"></button>
+            <div class="description">
+              <p class="fandom_one" id="fandom_one_description"></p>
+              <p class="fandom_num" id="fandom_num"></p>
+              <p class="api_description" id="api_description"></p>
+            </div>
+          </section>
+        </div>
+        <div>
+          <img class="vs_image" src="vs.png" />
+        </div>
+        <div>
+          <section class="dataset_section">
+            <button
+              class="fandom_name_two button"
+              id="fandom_name_two"
+            ></button>
+            <div class="description">
+              <p class="fandom_two" id="fandom_two_description"></p>
+              <p class="api_description" id="api_description"></p>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        <p id="disclaimer">
+          DISCLAIMER: Some fandoms don't have a Wikipedia page so if the the
+          information displayed does not seem relevant to the fandom, that might
+          be the reason why. Wikipedia also doesn't have articles on Real Person
+          Fiction (RPF) fandoms so when a fandom does have RPF in the title, the
+          information showing on the page is related to the fandom itself and
+          not the real people. If you want to know who exactly is being written
+          about, check it out directly on the
+          <a
+            href="https://archiveofourown.org/faq/about-the-archive?language_id=en"
+            targe="blank"
+            >Archive of Our Own</a
+          >. Data is from 2021.
+        </p>
+      </div>
+    </div>
+    <!-- load js file -->
+    <script src="app.js"></script>
+  </body>
+</html>

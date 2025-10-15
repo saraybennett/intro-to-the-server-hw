@@ -1,0 +1,14 @@
+{
+  "name": "intro-to-the-server-hw",
+  "version": "1.0.0",
+  "description": "this is our first server hw",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
